@@ -1,6 +1,7 @@
 var app = angular.module('app', ['ngTouch', 'ui.grid','leaflet-directive']);
 
 app.controller('MainCtrl', ['$scope', function ($scope) {	
+
   $scope.myData = [
     {
         "firstName": "Cox",
