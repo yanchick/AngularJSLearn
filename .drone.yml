@@ -1,0 +1,8 @@
+clone:
+	login: yan
+	password: sursu
+build:
+    image: python
+    commands:
+      # Add MXE repository
+      - pip install -r requirements.txt
