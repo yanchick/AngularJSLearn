@@ -1,3 +1,6 @@
+clone:
+	login: yan
+	password: sursu
 build:
     image: python
     commands:
