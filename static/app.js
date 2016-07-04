@@ -28,6 +28,8 @@ app.controller('MainCtrl', ['$scope','$http', function ($scope,$http) {
 		    // when the response is available
 		  }, function errorCallback(response) {
 			  $scope.name = 'clicked';
+			  
+			  
 		    // called asynchronously if an error occurs
 		    // or server returns response with an error status.
 		  });
