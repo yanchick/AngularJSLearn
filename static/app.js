@@ -1,9 +1,6 @@
 var app = angular.module('app', ['ngTouch', 'ui.grid','leaflet-directive']);
 
 app.controller('MainCtrl', ['$scope','$http', function ($scope,$http) {	
-
-	 
-	
   $scope.go = function() {
 	  $http({
 		  method: 'GET',
