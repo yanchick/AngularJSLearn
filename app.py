@@ -17,7 +17,10 @@ from tornado.log import enable_pretty_logging
 APP_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.append(os.path.join(APP_ROOT, '..'))
 
-  
+
+class Handler(tornado.web.MainHandler):
+    def __init__(self):  
+        pass
 class TornadoApplication(tornado.web.Application):
     
     def __init__(self):
