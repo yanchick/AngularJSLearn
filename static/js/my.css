@@ -37,3 +37,10 @@
   box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
 }
+
+.ngdialog.ngdialog-theme-default.custom-width-300 .ngdialog-content {
+    width: 300px;
+}
+.ngdialog.ngdialog-theme-default.custom-width-900 .ngdialog-content {
+    width: 900px;
+}

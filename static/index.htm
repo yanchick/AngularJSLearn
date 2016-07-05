@@ -31,9 +31,9 @@
 <script src="app.js"></script>
 </head>
 
-<script  id="templateId">
+<script type="text/ng-template" id="templateId">
     <h1>Template heading</h1>
-    <p>Content goes here</p>
+    <p>Content goes here  {{llat}}</p>
 </script>
 
 <body>
@@ -45,7 +45,6 @@
  	 	 	
  	<div id="grid1" ui-grid-edit ui-grid-cellnav ui-grid="{ data: myData }" class="grid"></div>
  	<leaflet width="50%" height="270px"></leaflet> 
- 	
 </div>
 </body>
 </html>
